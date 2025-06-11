@@ -220,14 +220,8 @@ function AppLayout() {
           </PageToggleButton>
         </MastheadToggle>
         <MastheadBrand>
-          <MastheadLogo>
-            <button
-              style={{ background: 'none', border: 'none', padding: 0, cursor: 'pointer' }}
-              onClick={() => navigate('/system/dashboard')}
-              aria-label="Go to home page"
-            >
-              <Brand src={pfLogo} alt="PatternFly" heights={{ default: '36px' }} />
-            </button>
+          <MastheadLogo component="a" href="/system/dashboard" aria-label="Go to home page">
+            <Brand src={pfLogo} alt="PatternFly" heights={{ default: '36px' }} />
           </MastheadLogo>
         </MastheadBrand>
       </MastheadMain>
@@ -242,23 +236,23 @@ function AppLayout() {
       <NavList>
         <NavExpandable title="System" isExpanded={systemExpanded} data-testid="nav-expandable-system">
           <NavItem isActive={location.pathname === '/system/dashboard'}>
-            <NavLink to="/system/dashboard" style={{ textDecoration: 'none', color: 'inherit', width: '100%', display: 'block' }}>
+            <NavLink to="/system/dashboard">
               Dashboard
             </NavLink>
           </NavItem>
           <NavItem isActive={location.pathname === '/system/instances'}>
-            <NavLink to="/system/instances" style={{ textDecoration: 'none', color: 'inherit', width: '100%', display: 'block' }}>
+            <NavLink to="/system/instances">
               Instances
             </NavLink>
           </NavItem>
         </NavExpandable>
         <NavItem isActive={location.pathname === '/settings'}>
-          <NavLink to="/settings" style={{ textDecoration: 'none', color: 'inherit', width: '100%', display: 'block' }}>
+          <NavLink to="/settings">
             Settings
           </NavLink>
         </NavItem>
         <NavItem isActive={location.pathname === '/docs'}>
-          <NavLink to="/docs" style={{ textDecoration: 'none', color: 'inherit', width: '100%', display: 'block' }}>
+          <NavLink to="/docs">
             Documentation
           </NavLink>
         </NavItem>
