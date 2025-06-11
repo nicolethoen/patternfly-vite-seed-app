@@ -6,6 +6,22 @@ This project is a modern starter for enterprise apps using:
 - [TypeScript](https://www.typescriptlang.org/)
 - [React 19](https://react.dev/)
 
+---
+
+## 🚀 Vibe Coding & AI Documentation Support
+
+This project supports **vibe coding** workflows, where you can direct an AI agent to use the [`ai-documentation/`](./ai-documentation/) directory as a primary source for developing with PatternFly. The documentation in this directory provides:
+- Core rules and best practices for PatternFly React development
+- Component usage guidelines, layout rules, and troubleshooting
+- Quick navigation to specialized rules and resources
+
+**Tip:** When using an AI coding assistant (like Cursor), you can instruct it to prioritize the `ai-documentation` directory for authoritative guidance on PatternFly usage in this codebase.
+
+### Cursor Rule
+If you are using the Cursor editor, there is a **Cursor rule** you can leverage to further enhance AI-driven development. This rule helps the agent understand how to use the `ai-documentation` directory as the primary source for PatternFly-related questions and implementation details.
+
+---
+
 ## Key Lessons & Best Practices
 
 ### Testing
