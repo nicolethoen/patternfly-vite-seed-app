@@ -4,7 +4,6 @@ Essential rules for PatternFly Chatbot implementation and integration patterns.
 
 ## Related Files
 
-- [**Local Resources**](../resources/local-files.md) - Reference to patternfly-chatbot.txt
 - [**Component Architecture**](../guidelines/component-architecture.md) - Component structure guidelines
 
 ## Installation Rules

@@ -16,6 +16,7 @@ Essential rules and guidelines for AI coders working with PatternFly React appli
 - [**PatternFly Guidelines**](./guidelines/README.md) - Core development principles
 - [**Component Rules**](./guidelines/component-architecture.md) - Component structure requirements
 - [**Styling Rules**](./guidelines/styling-standards.md) - CSS and styling requirements
+- [**Deployment Guide**](./guidelines/deployment-guide.md) - How to deploy prototypes
 
 ### 🧩 Component Rules
 - [**Layout Rules**](./components/layout/README.md) - Page structure requirements
@@ -31,7 +32,6 @@ Essential rules and guidelines for AI coders working with PatternFly React appli
 
 ### 📖 Resources
 - [**External Links**](./resources/external-links.md) - Official documentation links
-- [**Local Files**](./resources/local-files.md) - Project-specific resources
 
 ## Usage Rules for AI Coders
 
